@@ -1,0 +1,196 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #000000;
+    font-family: Roboto;
+}
+#top-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10.37vh;
+}
+.img-circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(90deg, #BFF0FF, #82B4FF);
+    width: 6.25vw;
+    height: 11.111vh;
+    border-radius: 50%;
+    margin-bottom: 42px;
+}
+.text1{
+    font-family: "Roboto Mono", monospace;
+    font-size: 3.519vh;
+    font-weight: 700;
+    background: linear-gradient(to top left,#DBA6F4,#A981FE);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.hline{
+    margin-top: 8.333vh;
+    width: 37.917vw;
+    height: 13.056vh;
+    margin-bottom: 14.815vh;
+}
+.skills{
+    font-family: "Roboto Mono", monospace;
+    font-size: 2.222vh;
+    font-weight: 600;
+    color: white;
+    text-align: center;
+    margin-bottom: 7.407vh;
+}
+.skils-det{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2.083vw;
+    flex-wrap: wrap;
+    margin: 0 10.104vw;
+}
+.pill{
+    width: max-content;
+    border-radius: 50px;
+    border: 2px solid #DBA6F4;
+    padding: 1.389vh 1.563vw;
+    font-size: 2.222vh;
+    font-weight: 500;
+    background: linear-gradient(to top left,#FFE597,#AAFF82);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.vline{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text2{
+    font-family: "Roboto Mono", monospace;
+    font-size: 1.852vh;
+    font-weight: 500;
+    color: white;
+}
+.journey-det{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 6.51vw;
+}
+.text3{
+    font-family: "Philosopher", sans-serif;
+    font-size: 2.407vh;
+    font-weight: 500;
+    font-style: italic;
+    background: linear-gradient(to top left,#BFF0FF,#82B4FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+.text4{
+    font-size: 1.667vh;
+    font-weight: 400;
+    background: linear-gradient(to top left,#BFF0FF,#82B4FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.edu{
+    display: flex;
+    justify-content: space-around;
+    margin: 7.407vh 4.167vw;
+    gap: 6.25vw;
+}
+.title1{
+    font-size: 3.519vh;
+    font-weight: 600;
+    background: linear-gradient(to top left,#BFF0FF,#82B4FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text5{
+    font-size: 2.037vh;
+    font-weight: 500;
+    color: white;
+    margin-top: 1.852vh;
+}
+.exp-start{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text6{
+    font-family: "Philosopher", sans-serif;
+    font-size: 2.407vh;
+    font-weight: 500;
+    font-style: italic;
+    background: linear-gradient(to top left,#A9FE81,#C0F0FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    width: 26.042vw;
+    text-transform: uppercase;
+}
+.comb-img{
+    position: relative;
+}
+.cir-img{
+    position: absolute;
+    left: 5vw;
+    bottom: 17vh;
+}
+.intern{
+    display: flex;
+    justify-content: space-between;
+    margin:7.407vh 4.167vw;
+    gap: 5.208vw;
+    align-items: center;
+}
+.title2{
+    font-family: "Roboto Mono", monospace;
+    font-size: 3.333vh;
+    font-weight: 800;
+    background: linear-gradient(to top left,#A9FE81,#C0F0FF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text7{
+    font-family: "Philosopher", sans-serif;
+    font-size: 2.407vh;
+    font-weight: 500;
+    font-style: italic;
+    background: linear-gradient(to top left, #FEBD81, #FFE598, #BFF4A6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+    width: 26.042vw;
+}
+.title3{
+    font-family: "Roboto Mono", monospace;
+    font-size: 3.333vh;
+    font-weight: 800;
+    background: linear-gradient(to top left, #FEBD81, #FFE598, #BFF4A6);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.text8{
+    font-family: "Philosopher", sans-serif;
+    font-size: 2.407vh;
+    font-weight: 500;
+    font-style: italic;
+    background: linear-gradient(to top left,#FBAE95,#FFE598);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-transform: uppercase;
+}
+.text-body-secondary {
+    --bs-text-opacity: 1;
+    font-size: 30;
+    color: white !important;
+}
+svg{
+    color: white;
+}
